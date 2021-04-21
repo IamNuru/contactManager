@@ -1,0 +1,102 @@
+.wrap-contact-details {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-template-columns: 1fr 3fr; */
+  grid-template-columns: repeat(12, 1fr);
+  /* height: 100%; */
+  grid-gap: 1rem;
+}
+.wrap-contact-details > div:nth-child(1) {
+  grid-column: 1/5;
+}
+.wrap-contact-details > div:nth-child(2) {
+  grid-column: 5/-1;
+}
+.wrap-contact-box-details > div {
+  margin-bottom: 0.2rem;
+  padding: 0.4rem;
+}
+.wrap-contact-box-details > div > div:nth-child(1) {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 550;
+  background-color: #4d4d4d;
+  color: white;
+  padding: 0.5rem;
+}
+.wrap-contact-box-details > div > div:nth-child(2) {
+  margin-left: 1rem;
+}
+.wrap-contact-box-buttons {
+  width: 100%;
+  text-align: center;
+}
+.wrap-contact-box-buttons > div,
+.wrap-contact-box-buttons > a {
+  padding: 0.75rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 550;
+  color: #fff;
+  display: inline-block;
+  margin: 0 1.5rem 1rem;
+  min-width: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.wrap-contact-box-buttons > a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #16a6b7;
+}
+.wrap-contact-box-buttons > div:nth-child(1) {
+  background-color: #16a6b7;
+}
+.wrap-contact-box-buttons > div:nth-child(2) {
+  background-color: #fc2525;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* max-width: 300px; */
+  /* margin: auto; */
+  text-align: center;
+  padding: 0.25rem;
+  /* background-color: green; */
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}

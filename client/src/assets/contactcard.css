@@ -1,0 +1,73 @@
+.flat-card {
+	/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	min-height: 100px;
+	max-height: 150px;
+	overflow: hidden;
+	transition: ease 0.3s;
+}
+.flat-card:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-right {
+	float: right;
+	position: relative;
+	width: 100%;
+}
+.card-right > div {
+	display: block;
+}
+.card-left {
+	margin: auto;
+	margin-left: 0;
+	width: 25%;
+}
+.contact-name > a {
+	color: rgb(0, 209, 224);
+	text-decoration: none;
+	font-size: 1.15rem;
+	transition: ease 0.5s;
+}
+.contact-name > a:hover {
+	color: rgb(224, 45, 0);
+}
+.contact-occupation {
+	color: #818183;
+	font-size: 1rem;
+}
+.contact-actions > li a {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 0.85rem;
+	text-decoration: none;
+}
+.contact-actions {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	/* background-color: green; */
+	justify-content: center;
+}
+.contact-actions li {
+	display: inline;
+	margin: auto;
+}
+.contact-actions > li:nth-child(1) a {
+	color: #05c757;
+}
+.contact-actions > li:nth-child(2) i:hover {
+	cursor: pointer;
+}
+.contact-actions > li:nth-child(2) i {
+	color: #f44d55;
+}
+.card-left img {
+	min-width: 0.1em;
+	max-width: 100%;
+	border-radius: 50%;
+	margin: auto;
+	background-color: #818183;
+	padding: 1.2px;
+}

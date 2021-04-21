@@ -1,0 +1,17 @@
+.wrap-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+.item {
+  display: block;
+  text-align: center;
+  padding: 1.2rem;
+}
+.item-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: rgb(158, 155, 155);
+}
